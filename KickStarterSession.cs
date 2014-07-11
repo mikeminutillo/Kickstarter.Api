@@ -15,6 +15,7 @@ namespace Kickstarter.Api
         {
             using (var client = new WebClient())
             {
+                client.Encoding = Encoding.UTF8;
                 var result = await client.DownloadStringTaskAsync(GetUrl(path));
                 return await result.ParsedAsJson<TResult>();
             }
