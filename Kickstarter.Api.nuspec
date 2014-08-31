@@ -11,7 +11,7 @@
     <!--<iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>-->
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>Initial Release.</releaseNotes>
+    <releaseNotes>Added slug to project creator</releaseNotes>
     <copyright>Copyright 2014</copyright>
     <tags>kickstarter</tags>
   </metadata>

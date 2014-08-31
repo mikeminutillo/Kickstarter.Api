@@ -12,6 +12,9 @@ namespace Kickstarter.Api.Model
         [DataMember(Name = "name")]
         public string Name { get; set; }
 
+        [DataMember(Name = "slug")]
+        public string Slug { get; set; }
+
         [DataMember(Name = "avatar")]
         public IDictionary<string, string> Avatar { get; set; }
 
